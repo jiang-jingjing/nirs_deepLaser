@@ -3,7 +3,7 @@ function Data2fit = y_nirfast_global(x, ~, paras)
  
 optprop = x ./paras.scaler 
 
-val.muas   = optprop(1);
+val.mus   = optprop(1);
 val.mus  = optprop(2);
 mesh = paras.mesh;
 region_no = unique(mesh.region);
